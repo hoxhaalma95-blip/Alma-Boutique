@@ -1,0 +1,148 @@
+/* ==========================================================
+   Alma Boutique - shop.css (shop page only)
+   Nav bar and footer come from common.css.
+   ========================================================== */
+.shop {
+    width: 87%;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 30px 0 10px;
+}
+
+.shop h1 {
+    text-align: center;
+    font-family: fantasy;
+    font-size: clamp(32px, 4vw, 48px);
+    margin: 10px 0 5px;
+}
+
+.shop-intro {
+    text-align: center;
+    color: #625B65;
+    margin: 0 0 25px;
+}
+
+/* ---------- Toolbar ---------- */
+.toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+
+.toolbar input[type="search"],
+.toolbar select,
+.favorites-btn {
+    padding: 11px 14px;
+    border: 1px solid #ADA5B0;
+    border-radius: 8px;
+    font-size: 16px;
+    background: #fff;
+    font-family: inherit;
+}
+
+.toolbar input[type="search"] { flex: 1 1 260px; min-width: 0; }
+.toolbar input:focus, .toolbar select:focus { outline: 2px solid #8B647B; }
+
+.favorites-btn { cursor: pointer; color: #29252B; }
+.favorites-btn[aria-pressed="true"] { background: #8B647B; border-color: #8B647B; color: #fff; }
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 14px;
+}
+
+.categories button {
+    padding: 8px 16px;
+    border: 1px solid #ADA5B0;
+    border-radius: 999px;
+    background: #fff;
+    color: #29252B;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+.categories button:hover { background: #f1eef2; }
+.categories button.active { background: #29252B; border-color: #29252B; color: #fff; }
+
+.result-count { color: #625B65; margin: 0 0 18px; }
+
+/* ---------- Product grid ---------- */
+.shop-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 28px 24px;
+    margin-bottom: 40px;
+}
+
+.product-card h3 { font-size: 17px; margin: 12px 0 4px; font-weight: 500; }
+.product-card .price { margin: 0; color: #625B65; font-weight: 600; }
+
+.product-img-wrap { position: relative; overflow: hidden; background: #f5f3f5; }
+.product-img-wrap img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 2 / 3;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+.product-card:hover .product-img-wrap img { transform: scale(1.04); }
+
+.heart {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.9);
+    color: #29252B;
+    font-size: 22px;
+    line-height: 1;
+    cursor: pointer;
+    transition: transform 0.15s ease;
+}
+.heart:hover { transform: scale(1.12); }
+.heart.liked { color: #b5385f; }
+
+.empty { grid-column: 1 / -1; text-align: center; color: #625B65; padding: 50px 0; font-size: 18px; }
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+}
+
+@media (max-width: 900px) {
+    .shop { width: 92%; }
+    .shop-grid { grid-template-columns: repeat(2, 1fr); gap: 20px 14px; }
+}
+@media (max-width: 520px) {
+    .product-card h3 { font-size: 15px; }
+    .toolbar select, .favorites-btn { flex: 1 1 45%; }
+}
+
+/* ---------- Add to cart button ---------- */
+.add-btn {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #29252B;
+    border-radius: 8px;
+    background: #fff;
+    color: #29252B;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+.add-btn:hover { background: #29252B; color: #fff; }
+.add-btn.added { background: #1f5a37; border-color: #1f5a37; color: #fff; }

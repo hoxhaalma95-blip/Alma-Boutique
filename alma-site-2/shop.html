@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop | Alma Boutique</title>
+    <link rel="stylesheet" href="shop.css">
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="extras.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="nav-bar">
+
+                <a href="./index.html" class="logo">
+                    <img src="./imagess/Alma Boutique Couture Logo.png" alt="Logo">
+                </a>
+
+                <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <div class="right-menu">
+                    <ul class="nav-bar">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./page2.html">Woman</a></li>
+                        <li><a href="./page3.html">Men</a></li>
+                        <li><a href="./page4.html">Child</a></li>
+                        <li><a href="./page5.html">New</a></li>
+                        <li><a href="./shop.html">Shop</a></li>
+                        <li><a href="./page6.html">About Us</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="shop">
+        <h1>SHOP ALL</h1>
+        <p class="shop-intro">Find your favorites: search, filter and save the pieces you love.</p>
+
+        <div class="toolbar">
+            <label class="sr-only" for="search">Search products</label>
+            <input type="search" id="search" placeholder="Search products, e.g. black bag" autocomplete="off">
+
+            <label class="sr-only" for="sort">Sort products</label>
+            <select id="sort">
+                <option value="featured">Sort: Featured</option>
+                <option value="price-asc">Price: low to high</option>
+                <option value="price-desc">Price: high to low</option>
+                <option value="name">Name: A to Z</option>
+            </select>
+
+            <button type="button" id="favorites-toggle" class="favorites-btn" aria-pressed="false">♡ Favorites (0)</button>
+        </div>
+
+        <div class="categories" id="categories" aria-label="Product categories"></div>
+
+        <p class="result-count" id="count" aria-live="polite"></p>
+
+        <div class="shop-grid" id="grid"></div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-container">
+
+            <div class="footer-brand">
+                <h2>ALMA BOUTIQUE</h2>
+                <p>Timeless elegance, modern confidence.</p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <a href="./index.html">Home</a>
+                <a href="./shop.html">Collections</a>
+                <a href="./page6.html">About Us</a>
+                <a href="#">Contact</a>
+            </div>
+
+            <div class="footer-links">
+                <h3>Customer Care</h3>
+                <a href="#">Shipping & Returns</a>
+                <a href="#">Size Guide</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+
+            <div class="footer-newsletter">
+                <h3>Stay Inspired</h3>
+                <p>Subscribe for exclusive collections and updates.</p>
+
+                <form>
+                    <input type="email" placeholder="Your email address">
+                    <button type="submit">→</button>
+                </form>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 Alma Boutique. All rights reserved.</p>
+            <p>Instagram | Pinterest | TikTok</p>
+        </div>
+    </footer>
+
+    <script src="menu.js"></script>
+    <script src="site.js"></script>
+    <script src="products.js"></script>
+    <script src="shop.js"></script>
+</body>
+</html>

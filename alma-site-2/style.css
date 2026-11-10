@@ -1,0 +1,613 @@
+/* ==========================================================
+   Alma Boutique - style.css (home page)
+   Desktop look is unchanged. Responsive rules are at the bottom.
+   ========================================================== */
+
+img { max-width: 100%; }
+
+/* ---------- NAV BAR ---------- */
+.logo { flex-shrink: 0; }
+
+.logo img {
+    width: 138px;
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    list-style: none;
+}
+
+.right-menu {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.container .nav-bar {
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: white;
+}
+
+.nav-bar a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    white-space: nowrap;
+}
+
+/* Hamburger button (only visible on small screens) */
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    width: 44px;
+    height: 44px;
+    padding: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.menu-toggle span {
+    display: block;
+    height: 2px;
+    background: #29252B;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.menu-toggle.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.menu-toggle.open span:nth-child(2) { opacity: 0; }
+.menu-toggle.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+/* ---------- HERO ---------- */
+.Hero .container {
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: rgb(209, 204, 210);
+    min-height: 700px;   /* hero height - raise/lower this number to change it */
+}
+
+.Hero-text {
+    flex: 1;
+    min-width: 0;
+    padding: 30px 30px 30px 70px;
+    text-align: center;
+}
+
+.Hero-text h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    padding-left: 70px;
+}
+
+.Hero-text p {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    padding-bottom: 10px;
+    padding-left: 70px;
+}
+
+.hero-img {
+    flex: 0 1 560px;
+    min-width: 0;
+    align-self: stretch;
+    display: flex;
+}
+
+.hero-img img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.button-hero {
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.button-hero:hover { background-color: #f5f3f5; }
+
+/* ---------- 3 PHOTOS ---------- */
+.photos .container {
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: white;
+    padding-bottom: 35px;
+}
+
+.photo-3 {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    width: 100%;
+}
+
+.photo-3 img {
+    width: 32%;
+    height: 350px;
+    object-fit: cover;
+    object-position: center top;
+    padding: 35px 0 0;
+}
+
+/* ---------- FOLDER ---------- */
+.Folder .container {
+    display: block;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 35px;
+    padding-bottom: 190px;
+    background-color: white;
+    border: 2px solid black;
+    overflow: hidden;
+}
+
+.folder-text h1 {
+    font-size: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+.folder-img {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.folder-img img {
+    width: 500px;
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.paragraf {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: max-content;
+    max-width: 100%;
+    margin: 0;
+    z-index: 2;
+    text-align: center;
+    font-size: clamp(18px, 3.2vw, 50px);
+    font-family: monospace;
+    font-weight: bold;
+    color: white;
+}
+
+.paragraf span { color: black; }
+
+/* ---------- FASHION CARDS (boots / parfumes / blazers) ---------- */
+.fashion-cards {
+    width: 100%;
+    padding: 30px 0;
+}
+
+.fashion-cards .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 25px;
+    width: 87%;
+    max-width: none;
+    margin: 0 auto;
+}
+
+.fashion-card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #f5f3f5;
+    overflow: hidden;
+}
+
+.fashion-card img {
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.4s ease;
+}
+
+.fashion-card img:hover { transform: scale(1.05); }
+
+.fashion-card h2 {
+    font-size: clamp(14px, 1.2vw, 18px);
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.fashion-card a {
+    display: block;
+    margin-top: auto;
+    padding: 15px;
+    text-align: center;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.fashion-card a:hover { color: #8b647b; }
+
+/* ---------- FASHION WEEK BANNER ---------- */
+.fashion-week .container {
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: white;
+}
+
+.fashion-img {
+    display: flex;
+    justify-content: center;
+}
+
+.fashion-img img {
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+}
+
+/* ---------- HOLIDAY ---------- */
+.Holiday .container {
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: #D4CFD6;
+    overflow: hidden;
+}
+
+.Holiday-img,
+.Holiday-img2 {
+    flex: 1 1 0;
+    min-width: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.Holiday-img img,
+.Holiday-img2 img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    object-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+.Holiday-text {
+    flex: 2.2 1 0;
+    min-width: 0;
+}
+
+.Holiday-text h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Holiday-text h1 span {
+    font-size: 45px;
+    font-family: fantasy;
+}
+
+.Holiday-text p {
+    text-align: center;
+    font-size: 30px;
+}
+
+.button-holiday {
+    display: block;
+    width: fit-content;
+    margin: 100px auto 0;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    font-size: 25px;
+}
+
+/* ---------- THE MUST ---------- */
+.The-Must {
+    width: 100%;
+    padding: 15px 0;
+}
+
+.The-Must .container {
+    width: 87%;
+    margin: 15px auto 0;
+    position: relative;
+    background-color: white;
+    padding-top: 22px;
+    padding-bottom: 70px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.The-Must h1 {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    z-index: 2;
+    font-size: clamp(45px, 6vw, 85px);
+    font-weight: 700;
+    color: #111;
+    letter-spacing: 70px;
+}
+
+.Must-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 65px;
+}
+
+.Must-img img {
+    display: block;
+    width: 100%;
+    max-width: 1700px;
+    height: auto;
+    margin: 0 auto;
+    object-fit: contain;
+}
+
+.Must-text {
+    width: 100%;
+    padding: 15px 0 5px;
+}
+
+.Must-text h2 {
+    font-size: clamp(18px, 2vw, 26px);
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+/* ---------- FOOTER ---------- */
+.footer {
+    background-color: #D4CFD6;
+    color: #29252B;
+    padding: 30px 5% 15px;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.footer-brand h2 {
+    font-size: 26px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    color: #29252B;
+}
+
+.footer-brand p,
+.footer-newsletter p {
+    font-size: 14px;
+    color: #625B65;
+    line-height: 1.6;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-links h3,
+.footer-newsletter h3 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.footer-links a {
+    color: #625B65;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.footer-links a:hover { color: #8B647B; }
+
+.footer-newsletter form {
+    display: flex;
+    border-bottom: 1px solid #8B808C;
+    margin-top: 20px;
+}
+
+.footer-newsletter input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #29252B;
+    padding: 10px 0;
+    width: 100%;
+    min-width: 0;
+}
+
+.footer-newsletter button {
+    background: transparent;
+    border: none;
+    color: #29252B;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    padding-top: 15px;
+    font-size: 13px;
+    color: #625B65;
+    border-top: 1px solid #ADA5B0;
+}
+
+/* ==========================================================
+   RESPONSIVE
+   ========================================================== */
+
+/* ---------- Laptops / small desktops ---------- */
+@media (max-width: 1400px) {
+    html, body { max-width: 100%; overflow-x: hidden; }
+
+    .container .nav-bar { margin-left: 40px; margin-right: 40px; }
+
+    .Hero .container,
+    .photos .container,
+    .Folder .container,
+    .Holiday .container,
+    .fashion-week .container {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .Hero-text h1 { font-size: clamp(28px, 3.5vw, 45px); padding-left: 0; }
+    .Hero-text p { padding-left: 0; }
+    .Hero-text { padding-left: 30px; }
+    .Hero .container { min-height: 650px; }
+    .hero-img { flex: 0 1 460px; }
+
+    .Holiday-text h1 { font-size: clamp(28px, 3.5vw, 50px); }
+    .Holiday-text p { font-size: clamp(16px, 2vw, 30px); }
+    .button-holiday { margin-top: 50px; font-size: 20px; }
+
+    .The-Must h1 { letter-spacing: clamp(4px, 3.5vw, 70px); }
+}
+
+/* ---------- Tablets ---------- */
+@media (max-width: 900px) {
+    /* Hamburger menu: logo on the left, button on the right, links drop down */
+    nav.nav-bar { flex-wrap: wrap; justify-content: space-between; gap: 0; }
+    .container .nav-bar { margin-left: 15px; margin-right: 15px; }
+    .menu-toggle { display: flex; }
+    .right-menu { display: none; width: 100%; }
+    .right-menu.open { display: block; }
+    .right-menu .nav-bar {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+        padding: 0 0 10px;
+        margin: 0;
+    }
+    .right-menu .nav-bar li { text-align: center; border-top: 1px solid #ddd; }
+    .right-menu .nav-bar a { display: block; padding: 14px 0; font-size: 16px; }
+
+    .Hero .container,
+    .photos .container,
+    .Folder .container,
+    .Holiday .container,
+    .fashion-week .container {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    /* Hero stacks */
+    .Hero .container { flex-direction: column; min-height: 0; }
+    .Hero-text { padding: 20px; width: 100%; box-sizing: border-box; }
+    .Hero-text h1 { font-size: 32px; }
+    .hero-img { flex: none; align-self: auto; width: 100%; }
+    .hero-img img { height: 460px; padding: 20px; }
+
+    /* Folder */
+    .folder-text h1 { font-size: 40px; }
+    .Folder .container { padding-bottom: 40px; }
+    .folder-img { flex-direction: column; align-items: center; }
+    .paragraf {
+        position: static;
+        transform: none;
+        width: auto;
+        font-size: 22px;
+        color: black;
+        padding: 20px 10px 0;
+    }
+
+    /* Fashion cards: 2 per row */
+    .fashion-cards .container { flex-wrap: wrap; justify-content: center; }
+    .fashion-card { flex: 0 1 calc(50% - 13px); }
+
+    /* Holiday stacks */
+    .Holiday .container { flex-direction: column; }
+    .Holiday-img, .Holiday-img2 { flex: none; width: 100%; }
+    .Holiday-img img, .Holiday-img2 img { height: 350px; }
+    .Holiday-text { flex: none; width: 100%; padding-bottom: 30px; }
+    .Holiday-text h1 { font-size: 34px; }
+    .Holiday-text p { font-size: 18px; padding: 0 15px; }
+    .button-holiday { margin-top: 30px; padding: 14px; font-size: 18px; }
+
+    /* The Must */
+    .The-Must h1 { letter-spacing: 10px; }
+
+    /* Footer */
+    .footer-container { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* ---------- Phones ---------- */
+@media (max-width: 600px) {
+    .The-Must .container { width: 94%; padding: 12px; }
+    .The-Must h1 { font-size: 32px; letter-spacing: 4px; }
+    .Must-img { padding-top: 50px; }
+    .Must-text h2 { font-size: 16px; }
+}
+
+@media (max-width: 520px) {
+    .logo img { width: 110px; }
+    .nav-bar a { font-size: 14px; }
+
+    .Hero-text h1 { font-size: 26px; }
+    .folder-text h1 { font-size: 28px; }
+    .Holiday-text h1 { font-size: 26px; }
+
+    .photo-3 { flex-direction: column; }
+    .photo-3 img { width: 100%; height: 300px; }
+
+    .fashion-card { flex: 0 1 100%; }
+    .fashion-card img { height: 400px; }
+
+    .footer-container { grid-template-columns: 1fr; }
+    .footer-bottom { flex-direction: column; text-align: center; gap: 10px; }
+}

@@ -1,0 +1,114 @@
+.hand-bags .container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.hand-bags-card {
+    display: block;
+}
+
+.hand-bags-card img {
+    width: 400px;
+height: 600px;
+max-width: 100%;
+ display: block;
+ object-fit: contain;
+ margin-top: 50px;
+}
+
+.chbag .container {
+     display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.chbag-card {
+    display: block;
+}
+
+.chbag-card img {
+    width: 400px;
+height: 650px;
+max-width: 100%;
+ display: block;
+ object-fit: cover;
+ margin-top: 50px;
+}
+
+.shoulder-bag .container {
+      display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.shoulder-bag-card {
+    display: block;
+}
+
+.shoulder-bag-card img {
+  width: 400px;
+height: 650px;
+max-width: 100%;
+ display: block;
+ object-fit: contain;
+ margin-top: 50px;
+}
+
+.abag .container {
+  display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.abag-card {
+    display: block;
+}
+
+.abag-card img {
+    width: 400px;
+height: 650px;
+max-width: 100%;
+ display: block;
+ object-fit: cover;
+ margin-top: 50px;
+}
+
+.double-bags .container {
+     display: flex;
+    justify-content: center;
+    gap: 26px;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.double-bags-card {
+    display: block;
+}
+
+.double-bags-card img {
+    width: 850px;
+height: 1000px;
+max-width: 100%;
+ display: block;
+ object-fit: cover;
+}
+
+.double-bags p {
+    text-align: center;
+    font-size: 25px;
+    font-family: cursive;
+}

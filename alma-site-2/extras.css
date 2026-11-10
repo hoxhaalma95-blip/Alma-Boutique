@@ -1,0 +1,40 @@
+/* ==========================================================
+   Alma Boutique - extras.css (every page)
+   Smooth scrolling, back-to-top button, newsletter messages.
+   ========================================================== */
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+.back-to-top {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 48px;
+    height: 48px;
+    border: none;
+    border-radius: 50%;
+    background: #29252B;
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
+    z-index: 50;
+}
+.back-to-top.show { opacity: 1; visibility: visible; transform: none; }
+.back-to-top:hover { background: #8B647B; }
+
+.newsletter-msg { margin: 8px 0 0; font-size: 14px; min-height: 1.2em; }
+.newsletter-msg.error { color: #9b1c1c; }
+.newsletter-msg.success { color: #1f5a37; font-weight: 600; }
+.footer-newsletter form.invalid { border-bottom-color: #9b1c1c; }
+
+/* The menu now has more links: make it a little tighter on mid-size screens */
+@media (min-width: 901px) and (max-width: 1250px) {
+    .nav-bar { gap: 16px; }
+    .nav-bar a { font-size: 17px; }
+    .right-menu { gap: 12px; }
+}

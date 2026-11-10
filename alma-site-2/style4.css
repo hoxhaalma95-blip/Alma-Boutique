@@ -1,0 +1,226 @@
+.child-blouse .container {
+     display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.blouse-card {
+    display: block;
+}
+
+.blouse-card img {
+      width: 400px;
+height: 600px;
+max-width: 100%;
+ display: block;
+ object-fit: contain;
+ margin-top: 50px;
+}
+
+.dresses .container {
+     display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.dresess-card {
+    display: block;
+}
+
+.dresess-card img {
+     width: 400px;
+height: 600px;
+max-width: 100%;
+ display: block;
+ object-fit: contain;
+ margin-top: 50px;
+}
+
+.baby-shoes .container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.baby-shoes-card {
+    display: block;
+}
+
+.baby-shoes-card img {
+         width: 400px;
+height: 600px;
+max-width: 100%;
+ display: block;
+ object-fit: contain;
+ margin-top: 50px;
+}
+
+.kids-shorts .container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.kids-shorts-card {
+    display: block;
+}
+
+.kids-shorts-card1 {
+    display: block;
+}
+
+.kids-shorts-card2 {
+    display: block;
+}
+
+.kids-shorts-card img {
+width: 400px;
+height: 600px;
+max-width: 100%;
+ display: block;
+ object-fit: contain;
+ margin-top: 50px;
+}
+
+.kids-shorts-card1 img {
+width: 400px;
+height: 600px;
+max-width: 100%;
+ display: block;
+ object-fit: cover;
+ margin-top: 50px;
+}
+
+.kids-shorts-card2 img {
+width: 400px;
+height: 600px;
+max-width: 100%;
+ display: block;
+ object-fit: cover;
+ margin-top: 50px;
+}
+
+.kids-cards .container {
+     display: flex;
+    justify-content: center;
+    gap: 26px;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.kids-cards {
+    display: block;
+}
+
+.kids-card img {
+    width: 850px;
+height: 1200px;
+max-width: 100%;
+ display: block;
+ object-fit: cover;
+}
+
+.baby-pacifier .container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.pacifier-card {
+    display: block;
+}
+
+.pacifier-card img {
+width: 400px;
+height: 600px;
+max-width: 100%;
+ display: block;
+ object-fit: contain;
+ margin-top: 50px;
+}
+
+.socks-cards .container {
+        display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.sock-card {
+    display: block;
+}
+
+.sock-card img {
+    width: 400px;
+height: 600px;
+max-width: 100%;
+ display: block;
+ object-fit: contain;
+ margin-top: 50px;
+}
+
+.sock-card4 {
+    display: block;
+}
+
+.sock-card4 img {
+    width: 400px;
+height: 600px;
+max-width: 100%;
+ display: block;
+ object-fit: cover;
+ margin-top: 50px;
+}
+
+.bow-cards .container {
+      display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.bow-card {
+    display: block;
+}
+
+.bow-card img {
+ width: 400px;
+height: 600px;
+max-width: 100%;
+ display: block;
+ object-fit: cover;
+ margin-top: 50px;
+}
+
+.bow-card1 {
+    display: block;
+}
+
+.bow-card1 img {
+ width: 400px;
+height: 600px;
+max-width: 100%;
+ display: block;
+ object-fit: inherit;
+ margin-top: 50px;
+}

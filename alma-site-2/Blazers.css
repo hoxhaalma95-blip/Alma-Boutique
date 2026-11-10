@@ -1,0 +1,62 @@
+.blazers-men .container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.blazers-men-card {
+    display: block;
+}
+
+.blazers-men-card img {
+    width: 400px;
+height: 590px;
+max-width: 100%;
+ display: block;
+ object-fit: cover;
+ background-color: white;
+ margin-top: 50px;
+}
+
+.blazer-womans .container {
+ display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.blazer-womans-card img {
+       width: 400px;
+height: 590px;
+max-width: 100%;
+ display: block;
+ object-fit: cover;
+ background-color: white;
+ margin-top: 50px;
+}
+
+.double-blazers .container {
+      display: flex;
+    justify-content: center;
+    gap: 26px;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.double-blazers-card {
+    display: block;
+}
+
+.double-blazers-card img {
+    width: 850px;
+height: 1000px;
+max-width: 100%;
+ display: block;
+ object-fit: cover;
+}

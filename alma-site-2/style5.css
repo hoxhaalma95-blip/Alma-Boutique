@@ -1,0 +1,187 @@
+.Makeup h1 {
+    text-align: center;
+    font-family: fantasy;
+}
+
+.Makeup .container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.Lipgloss-card {
+    display: block;
+}
+
+.Lipgloss-card img {
+width: 400px;
+height: 600px;
+max-width: 100%;
+ display: block;
+ object-fit: contain;
+ margin-top: 50px;
+}
+
+.highliter-card {
+    display: block;
+}
+
+.highliter-card img {
+    width: 400px;
+height: 600px;
+max-width: 100%;
+ display: block;
+ object-fit: contain;
+ margin-top: 50px;
+}
+
+.blush-card {
+    display: block;
+}
+
+.blush-card img {
+    width: 400px;
+height: 600px;
+max-width: 100%;
+ display: block;
+ object-fit: contain;
+ margin-top: 50px;
+}
+
+.blush-card1 img {
+    width: 450px;
+height: 650px;
+max-width: 100%;
+ display: block;
+ object-fit: contain;
+ margin-top: 50px;
+}
+
+.Hair-Care h1 {
+    text-align: center;
+    font-family: fantasy;
+   padding-top: 40px;
+}
+
+.Hair-Care .container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.hair-oil {
+    display: block;
+}
+
+.hair-oil img {
+     width: 400px;
+height: 600px;
+max-width: 100%;
+ display: block;
+ object-fit: contain;
+ margin-top: 50px;
+}
+
+.oil-img img {
+width: 1600px;
+height: auto;
+}
+
+.shampo-card {
+    display: block;
+}
+
+.shampo-card img {
+     width: 400px;
+height: 600px;
+max-width: 100%;
+ display: block;
+ object-fit: contain;
+ margin-top: 50px;
+}
+
+.comb-card {
+    display: block;
+}
+
+.comb-card img {
+    width: 400px;
+height: 600px;
+max-width: 100%;
+ display: block;
+ object-fit: contain;
+ margin-top: 50px;
+}
+
+.Skin-care h1 {
+    font-family: fantasy;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.Skin-care .container {
+     display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.cream-card {
+    display: block;
+}
+
+.cream-card img {
+width: 400px;
+height: 600px;
+max-width: 100%;
+ display: block;
+ object-fit: cover  ;
+ margin-top: 50px;
+}
+
+.serum-card {
+    display: block;
+}
+
+.serum-card img {
+   width: 400px;
+height: 600px;
+max-width: 100%;
+ display: block;
+ object-fit: contain;
+ margin-top: 50px;
+}
+
+.cleanser-card {
+    display: block;
+}
+
+.cleanser-card img {
+width: 400px;
+height: 600px;
+max-width: 100%;
+ display: block;
+ object-fit: contain  ;
+ margin-top: 50px;
+}
+
+.cleanser-card3 {
+    display: block;
+}
+
+.cleanser-card3 img {
+width: 450px;
+height: 600px;
+max-width: 100%;
+ display: block;
+ object-fit: contain  ;
+ margin-top: 50px;
+}

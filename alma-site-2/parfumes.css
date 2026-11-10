@@ -1,0 +1,163 @@
+.org-parfumes .container {
+     display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgb(243, 240, 240);
+}
+
+.org-parfumes-card {
+    display: block;
+}
+
+.org-parfumes-card img {
+     width: 400px;
+height: 650px;
+max-width: 100%;
+ display: block;
+ object-fit: cover;
+ margin-top: 50px;
+}
+
+.creed-parfumes .container {
+   display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgb(243, 240, 240);
+}
+
+.creed-parfumes-card {
+    display: block;
+}
+
+.creed-parfumes-card img {
+    width: 400px;
+height: 650px;
+max-width: 100%;
+ display: block;
+ object-fit:cover;
+ margin-top: 50px;
+}
+
+.pparfume .container {
+     display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.pparfume-card {
+    display: block;
+}
+
+.pparfume-card img {
+      width: 400px;
+height: 650px;
+max-width: 100%;
+ display: block;
+ object-fit:cover;
+ margin-top: 50px;
+}
+
+.ombparfume .container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.ombparfume-card {
+    display: block;
+}
+
+.ombparfume-card img {
+    width: 400px;
+height: 650px;
+max-width: 100%;
+ display: block;
+ object-fit:contain;
+ margin-top: 50px;
+}
+
+.parfume-double .container {
+ display: flex;
+    justify-content: center;
+    gap: 26px;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.parfume-double-card {
+    display: block;
+}
+
+.parfume-double-card img {
+      width: 850px;
+height: 1000px;
+max-width: 100%;
+ display: block;
+ object-fit: cover;
+}
+
+.kayali-parfumes .container {
+     display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.kayali-parfumes-card {
+    display: block;
+}
+
+.kayali-parfumes-card img {
+   width: 400px;
+height: 650px;
+max-width: 100%;
+ display: block;
+ object-fit:cover;
+ margin-top: 50px;
+}
+
+.kayali-parfumes-card4 {
+    display: block;
+}
+
+.kayali-parfumes-card4 img {
+   width: 400px;
+height: 600px;
+max-width: 100%;
+ display: block;
+ object-fit:cover;
+ margin-top: 50px;
+}
+
+.kayali-parfumes-card2 img {
+   width: 400px;
+height: 710px;
+max-width: 100%;
+ display: block;
+ object-fit:cover;
+ margin-top: 50px;
+}
+
+.kayali-parfumes-card3 img {
+   width: 400px;
+height: 680px;
+max-width: 100%;
+ display: block;
+ object-fit:cover;
+ margin-top: 50px;
+}

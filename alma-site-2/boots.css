@@ -1,0 +1,158 @@
+.high-boots .container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.high-boots-card {
+    display: block;
+}
+
+.high-boots-card img {
+    width: 400px;
+height: 590px;
+max-width: 100%;
+ display: block;
+ object-fit: cover;
+ background-color: white;
+ margin-top: 50px;
+}
+
+.Knee-boots .container {
+     display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.Knee-boots-card {
+    display: block;
+}
+
+.Knee-boots-card img {
+    width: 400px;
+height: 590px;
+max-width: 100%;
+ display: block;
+ object-fit: cover;
+ background-color: white;
+ margin-top: 50px;
+}
+
+.uggs .container {
+ display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.uggs-card {
+    display: block;
+}
+
+.uggs-card img {
+     width: 400px;
+height: 590px;
+max-width: 100%;
+ display: block;
+ object-fit: cover;
+ background-color: white;
+ margin-top: 50px;
+}
+
+.uggs-double .container {
+     display: flex;
+    justify-content: center;
+    gap: 26px;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.uggs-double-card {
+    display: block;
+}
+
+.uggs-double-card img {
+    width: 850px;
+height: 1000px;
+max-width: 100%;
+ display: block;
+ object-fit: cover;
+}
+
+.sparkly-boots .container {
+   display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.sparkly-boots-card {
+    display: block;
+}
+
+.sparkly-boots-card img {
+ width: 400px;
+height: 590px;
+max-width: 100%;
+ display: block;
+ object-fit: cover;
+ background-color: white;
+ margin-top: 50px;
+}
+
+.lowboots .container {
+     display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.loeboots-card {
+    display: block;
+}
+
+.loeboots-card img {
+   width: 400px;
+height: 590px;
+max-width: 100%;
+ display: block;
+ object-fit: cover;
+ background-color: white;
+ margin-top: 50px;
+}
+
+.brown-boots .container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.brown-boots-card {
+    display: block;
+}
+
+.brown-boots-card img {
+ width: 400px;
+height: 590px;
+max-width: 100%;
+ display: block;
+ object-fit: cover;
+ background-color: white;
+ margin-top: 50px;
+}

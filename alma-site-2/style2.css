@@ -1,0 +1,199 @@
+.shopping-cards .container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.shopping-cards {
+    display: block;
+}
+
+.shopping-card h3 {
+    font-size: 20px;
+    text-align: center;
+    margin: 8px 0;
+}
+
+.shopping-card p {
+    text-align: center;
+    margin: 8px 0;
+}
+
+.shopping-card1 img {
+width: 400px;
+height: 590px;
+max-width: 100%;
+ display: block;
+ object-fit: contain;
+ background-color: rgb(238, 235, 235)
+}
+
+.shopping-card2 img {
+width: 400px;
+height: 590px;
+max-width: 100%;
+ display: block;
+ object-fit: contain;
+ background-color: rgb(244, 241, 241)
+}
+
+.shopping-card3 img {
+width: 400px;
+height: 590px;
+max-width: 100%;
+ display: block;
+ object-fit: contain;
+ background-color: rgb(242, 239, 239)
+}
+
+.shopping-card4 img {
+width: 400px;
+height: 590px;
+max-width: 100%;
+ display: block;
+ object-fit: contain;
+ background-color: rgb(244, 241, 241)
+}
+
+.Shirt-cards .container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgb(236, 232, 232);
+}
+
+.Shirt-cards {
+    display: block;
+    padding-top: 30px;
+}
+
+.Shirt-card img {
+width: 400px;
+height: 590px;
+max-width: 100%;
+ display: block;
+ object-fit: contain;
+ background-color: white;
+ margin-top: 50px;
+}
+
+.Shirt-card2 img {
+width: 400px;
+height: 590px;
+max-width: 100%;
+ display: block;
+ object-fit: contain;
+ background-color: white;
+ margin-top: 50px;
+}
+
+.double-cards .container {
+     display: flex;
+    justify-content: center;
+    gap: 26px;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.double-cards {
+    display: block;
+}
+
+.double-card img {
+    width: 850px;
+height: 1000px;
+max-width: 100%;
+ display: block;
+ object-fit: cover;
+}
+
+.jacket-cards .container {
+      display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.jacket-cards {
+    display: block;
+}
+
+.jacket-card img {
+width: 400px;
+height: 590px;
+max-width: 100%;
+ display: block;
+ object-fit: contain;
+ background-color: white;
+ margin-top: 50px;
+}
+
+.autumn .container {
+    display: flex;
+    justify-content: center;
+}
+
+.autumn-img {
+    display: block;
+}
+
+.autumn-img img {
+    width: 1750px;
+    height: 1100px;
+    max-width: 100%;
+    justify-content: center;
+    object-fit:cover;
+}
+
+.bag-cards .container {
+     display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.bag-card {
+    display: block;
+}
+
+.bag-card img {
+   width: 400px;
+height: 600px;
+max-width: 100%;
+ display: block;
+ object-fit: cover;
+ margin-top: 50px;
+}
+
+.parfume-cards .container {
+display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.parfume-card {
+    display: block;
+}
+
+.parfume-card img {
+ width: 400px;
+height: 600px;
+max-width: 100%;
+ display: block;
+ object-fit: cover;
+ margin-top: 50px;
+}
