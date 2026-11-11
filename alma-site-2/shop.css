@@ -1,7 +1,19 @@
 /* ==========================================================
    Alma Boutique - shop.css (shop page only)
    Nav bar and footer come from common.css.
+  
    ========================================================== */
+
+
+   .container {
+    width: 100%;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
 .shop {
     width: 87%;
     max-width: 1500px;

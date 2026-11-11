@@ -4,7 +4,15 @@
    the responsive rules for product rows.
    Link it LAST in each page's <head>, after the page's own CSS.
    ========================================================== */
-
+.container {
+    width: 100%;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
 img { max-width: 100%; }
 
 /* ---------- NAV BAR ---------- */

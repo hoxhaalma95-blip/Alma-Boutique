@@ -2,7 +2,11 @@
    Alma Boutique - extras.css (every page)
    Smooth scrolling, back-to-top button, newsletter messages.
    ========================================================== */
-html { scroll-behavior: smooth; }
+
+
+
+
+   html { scroll-behavior: smooth; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 
 .back-to-top {
